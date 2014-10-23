@@ -2,6 +2,7 @@
 <widget id="com.radiofn.radiofn" version="2.0.0" xmlns="http://www.w3.org/ns/widgets">
     <name> RadioFN
 </name>
+<icon src="http://radiofn.altervista.org/provapp/iconaradiofn.png" />
     <description> La radio alternativa che libera la mente! </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io"> Apache Cordova Team </author>
     <access origin="http://*/*" />
