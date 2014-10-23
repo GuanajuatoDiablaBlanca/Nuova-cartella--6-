@@ -25,6 +25,7 @@
     <feature name="AppLoader">
         <param name="ios-package" value="com.phonegap.build.AppLoader" />
     </feature>
-    <gap:plugin name="org.apache.cordova.device" version="0.2.12" />
-    <gap:plugin name="nl.x-services.plugins.backgroundaudio" version="1.0.0" />
+    
 </widget>
+<gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+    <gap:plugin name="nl.x-services.plugins.backgroundaudio" version="1.0.0" />
