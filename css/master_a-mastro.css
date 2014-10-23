@@ -1,5 +1,196 @@
-#u213
+#u704
+{
+	background: #82E082 url("../images/u704-grad.png") repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, from(#349934),color-stop(86%, #82E082));
+	background: -webkit-linear-gradient(top,#349934 ,#82E082 86%);
+	background: -moz-linear-gradient(top,#349934 ,#82E082 86%);
+	background: -ms-linear-gradient(top,#349934 ,#82E082 86%);
+	background: -o-linear-gradient(top,#349934 ,#82E082 86%);
+	background: linear-gradient(to bottom,#349934 ,#82E082 86%);
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	position: relative;
+}
+
+#u700
+{
+	background: #D11010 url("../images/u700-grad.png") repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, color-stop(54%, #F64A4A),to(#D11010));
+	background: -webkit-linear-gradient(top,#F64A4A 54%,#D11010 );
+	background: -moz-linear-gradient(top,#F64A4A 54%,#D11010 );
+	background: -ms-linear-gradient(top,#F64A4A 54%,#D11010 );
+	background: -o-linear-gradient(top,#F64A4A 54%,#D11010 );
+	background: linear-gradient(to bottom,#F64A4A 54%,#D11010 );
+	position: relative;
+}
+
+#u700:hover
+{
+	background: #D11010 url("../images/u700-r-grad.png") repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, color-stop(54%, #F02E2E),to(#D11010));
+	background: -webkit-linear-gradient(top,#F02E2E 54%,#D11010 );
+	background: -moz-linear-gradient(top,#F02E2E 54%,#D11010 );
+	background: -ms-linear-gradient(top,#F02E2E 54%,#D11010 );
+	background: -o-linear-gradient(top,#F02E2E 54%,#D11010 );
+	background: linear-gradient(to bottom,#F02E2E 54%,#D11010 );
+}
+
+#u700:active
+{
+	background: #D11010 url("../images/u700-m-grad.png") repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, color-stop(54%, #F81313),to(#D11010));
+	background: -webkit-linear-gradient(top,#F81313 54%,#D11010 );
+	background: -moz-linear-gradient(top,#F81313 54%,#D11010 );
+	background: -ms-linear-gradient(top,#F81313 54%,#D11010 );
+	background: -o-linear-gradient(top,#F81313 54%,#D11010 );
+	background: linear-gradient(to bottom,#F81313 54%,#D11010 );
+}
+
+#u700.MuseMenuActive
+{
+	background: #E96969 url("../images/u700-a-grad.png") repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, from(#B11D1D),color-stop(92%, #E96969));
+	background: -webkit-linear-gradient(top,#B11D1D ,#E96969 92%);
+	background: -moz-linear-gradient(top,#B11D1D ,#E96969 92%);
+	background: -ms-linear-gradient(top,#B11D1D ,#E96969 92%);
+	background: -o-linear-gradient(top,#B11D1D ,#E96969 92%);
+	background: linear-gradient(to bottom,#B11D1D ,#E96969 92%);
+}
+
+#u701
+{
+	vertical-align: top;
+	background: url("../images/u701.png") no-repeat 0px 0px;
+	position: relative;
+}
+
+#u700.MuseMenuActive #u701
+{
+	background: url("../images/u701-a.png") no-repeat 0px 0px;
+}
+
+#u672
+{
+	background: #D11010 url("../images/u700-grad.png") repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, color-stop(54%, #F64A4A),to(#D11010));
+	background: -webkit-linear-gradient(top,#F64A4A 54%,#D11010 );
+	background: -moz-linear-gradient(top,#F64A4A 54%,#D11010 );
+	background: -ms-linear-gradient(top,#F64A4A 54%,#D11010 );
+	background: -o-linear-gradient(top,#F64A4A 54%,#D11010 );
+	background: linear-gradient(to bottom,#F64A4A 54%,#D11010 );
+	position: relative;
+}
+
+#u672:hover
+{
+	background: #D11010 url("../images/u700-r-grad.png") repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, color-stop(54%, #F02E2E),to(#D11010));
+	background: -webkit-linear-gradient(top,#F02E2E 54%,#D11010 );
+	background: -moz-linear-gradient(top,#F02E2E 54%,#D11010 );
+	background: -ms-linear-gradient(top,#F02E2E 54%,#D11010 );
+	background: -o-linear-gradient(top,#F02E2E 54%,#D11010 );
+	background: linear-gradient(to bottom,#F02E2E 54%,#D11010 );
+}
+
+#u672:active
+{
+	background: #D11010 url("../images/u700-m-grad.png") repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, color-stop(54%, #F81313),to(#D11010));
+	background: -webkit-linear-gradient(top,#F81313 54%,#D11010 );
+	background: -moz-linear-gradient(top,#F81313 54%,#D11010 );
+	background: -ms-linear-gradient(top,#F81313 54%,#D11010 );
+	background: -o-linear-gradient(top,#F81313 54%,#D11010 );
+	background: linear-gradient(to bottom,#F81313 54%,#D11010 );
+}
+
+#u672.MuseMenuActive
+{
+	background: #E96969 url("../images/u700-a-grad.png") repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, from(#B11D1D),color-stop(92%, #E96969));
+	background: -webkit-linear-gradient(top,#B11D1D ,#E96969 92%);
+	background: -moz-linear-gradient(top,#B11D1D ,#E96969 92%);
+	background: -ms-linear-gradient(top,#B11D1D ,#E96969 92%);
+	background: -o-linear-gradient(top,#B11D1D ,#E96969 92%);
+	background: linear-gradient(to bottom,#B11D1D ,#E96969 92%);
+}
+
+#u675
+{
+	vertical-align: top;
+	background: url("../images/u675.png") no-repeat 0px 0px;
+	position: relative;
+}
+
+#u672.MuseMenuActive #u675
+{
+	background: url("../images/u675-a.png") no-repeat 0px 0px;
+}
+
+#u213,#menuu668,#u697,#u669,#u676
 {
 	position: relative;
+}
+
+#u677
+{
+	background: #D11010 url("../images/u700-grad.png") repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, color-stop(54%, #F64A4A),to(#D11010));
+	background: -webkit-linear-gradient(top,#F64A4A 54%,#D11010 );
+	background: -moz-linear-gradient(top,#F64A4A 54%,#D11010 );
+	background: -ms-linear-gradient(top,#F64A4A 54%,#D11010 );
+	background: -o-linear-gradient(top,#F64A4A 54%,#D11010 );
+	background: linear-gradient(to bottom,#F64A4A 54%,#D11010 );
+	position: relative;
+}
+
+#u677:hover
+{
+	background: #D11010 url("../images/u700-r-grad.png") repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, color-stop(54%, #F02E2E),to(#D11010));
+	background: -webkit-linear-gradient(top,#F02E2E 54%,#D11010 );
+	background: -moz-linear-gradient(top,#F02E2E 54%,#D11010 );
+	background: -ms-linear-gradient(top,#F02E2E 54%,#D11010 );
+	background: -o-linear-gradient(top,#F02E2E 54%,#D11010 );
+	background: linear-gradient(to bottom,#F02E2E 54%,#D11010 );
+}
+
+#u677:active
+{
+	background: #D11010 url("../images/u700-m-grad.png") repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, color-stop(54%, #F81313),to(#D11010));
+	background: -webkit-linear-gradient(top,#F81313 54%,#D11010 );
+	background: -moz-linear-gradient(top,#F81313 54%,#D11010 );
+	background: -ms-linear-gradient(top,#F81313 54%,#D11010 );
+	background: -o-linear-gradient(top,#F81313 54%,#D11010 );
+	background: linear-gradient(to bottom,#F81313 54%,#D11010 );
+}
+
+#u677.MuseMenuActive
+{
+	background: #E96969 url("../images/u700-a-grad.png") repeat-x left top;
+	background: -webkit-gradient(linear, center top, center bottom, from(#B11D1D),color-stop(92%, #E96969));
+	background: -webkit-linear-gradient(top,#B11D1D ,#E96969 92%);
+	background: -moz-linear-gradient(top,#B11D1D ,#E96969 92%);
+	background: -ms-linear-gradient(top,#B11D1D ,#E96969 92%);
+	background: -o-linear-gradient(top,#B11D1D ,#E96969 92%);
+	background: linear-gradient(to bottom,#B11D1D ,#E96969 92%);
+}
+
+#u679
+{
+	vertical-align: top;
+	background: url("../images/u679.png") no-repeat 0px 0px;
+	position: relative;
+}
+
+#u677.MuseMenuActive #u679
+{
+	background: url("../images/u679-a.png") no-repeat 0px 0px;
+}
+
+.MenuItem /* unifiedNavBar */
+{
+	cursor: pointer;
 }
 
