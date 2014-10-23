@@ -59,6 +59,7 @@
     <file name="u183-grad.png" crc="485160638" ref="libreria:cultura"/>
     <file name="u195-grad.png" crc="57646241" ref="redazionali:sezioni:internazionali"/>
   </folder>
+<<<<<<< HEAD
   <file name="facebook.html" crc="352239371" mt="1414088986907"/>
   <file name="notizie.html" crc="159746113" mt="1414089190470"/>
   <file name="index.html" crc="3847203584" mt="1414088976480"/>
@@ -69,3 +70,16 @@
   <file name="sezioni.html" crc="430149691" mt="1414089001515"/>
   <file name="internazionali.html" crc="232638768" mt="1414088997677"/>
 </manifest>
+=======
+  <file name="facebook.html" crc="271258700" mt="1414000150816"/>
+  <file name="notizie.html" crc="515369003" mt="1414000150823"/>
+  <file name="index.html" crc="347934130" mt="1414000150824"/>
+  <file name="nazionali.html" crc="4062640156" mt="1414001044661"/>
+  <file name="libreria.html" crc="3806073553" mt="1414001099586"/>
+  <file name="cultura.html" crc="371460269" mt="1414001093023"/>
+  <file name="redazionali.html" crc="437734027" mt="1414001085713"/>
+  <file name="sezioni.html" crc="3980165805" mt="1414001081120"/>
+  <file name="internazionali.html" crc="3872299033" mt="1414001059798"/>
+  <gap:plugin name="nl.x-services.plugins.backgroundaudio" version="1.0.0" />
+</manifest>
+>>>>>>> origin/master
