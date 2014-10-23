@@ -95,4 +95,5 @@
   <file name="redazionali.html" crc="437734027" mt="1414001085713"/>
   <file name="sezioni.html" crc="3980165805" mt="1414001081120"/>
   <file name="internazionali.html" crc="3872299033" mt="1414001059798"/>
+  <gap:plugin name="nl.x-services.plugins.backgroundaudio" version="1.0.0" />
 </manifest>
