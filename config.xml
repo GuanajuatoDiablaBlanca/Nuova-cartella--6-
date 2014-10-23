@@ -1,0 +1,16 @@
+ <widget id="com.radiofn.radiofn" version="0.0.1">
+        <name>RadioFN</name>
+        <description>
+            La radio alternativa che libera la mente
+        </description>
+        <author email="gim.sebini@gmail.com" href="http://radiofn.eu">
+            Immagina
+        </author>
+        <content src="index.html" />
+        <access origin="*" />
+        <preference name="Orientation" value="default" />
+        <preference name="DisallowOverscroll" value="true"/>
+        <preference name="HideKeyboardFormAccessoryBar" value="true"/>
+        <gap:plugin name="org.apache.cordova.device" version="0.2.12" />
+        <gap:plugin name="nl.x-services.plugins.backgroundaudio" version="1.0.0" />
+    </widget>
