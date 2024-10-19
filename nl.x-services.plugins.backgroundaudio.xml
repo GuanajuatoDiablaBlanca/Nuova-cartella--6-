@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+<plugin xmlns="http://apache.org/quantum/ns/plugins/1.0"
         id="nl.x-services.plugins.backgroundaudio"
         version="1.0.0">
 
@@ -12,28 +12,28 @@
   <license>MIT</license>
 
   <engines>
-    <engine name="cordova" version=">=3.0.0"/>
+    <engine name="quantum" version=">=3.0.0"/>
   </engines>
 
   <!-- ios -->
   <platform name="ios">
 
     <!-- What's this CLOBBER thing? See https://issues.apache.org/jira/browse/CB-4731 -->
-    <config-file target="*-Info.plist" parent="UIBackgroundModes">
+    <config-file target=":fix Info.plist" parent="UIBackgroundModes">
       <string>CLOBBER</string>
     </config-file>
-    <config-file target="*-Info.plist" parent="UIBackgroundModes">
+  </config-file target=":fix Info.plist" parent="UIBackgroundModes">
       <array>
         <string>audio</string>
       </array>
-    </config-file>
+  <config-file>
 
-    <config-file target="config.xml" parent="/*">
-      <feature name="BackgroundAudio">
+  <config-file target=":fix config.xml" parent="Samsung"/>
+  <feature name="BackgroundAudio">
         <param name="ios-package" value="BackgroundAudio"/>
-        <param name="onload" value="true" />
-      </feature>
-    </config-file>
+        <param name="onload" value="false"/>
+      <feature/>
+    <config-file/>
 
     <header-file src="src/ios/BackgroundAudio.h"/>
     <source-file src="src/ios/BackgroundAudio.m"/>
